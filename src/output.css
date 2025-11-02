@@ -508,11 +508,83 @@
   .w-8 {
     width: calc(var(--spacing) * 8);
   }
+  .w-10 {
+    width: calc(var(--spacing) * 10);
+  }
+  .w-10\/12 {
+    width: calc(10/12 * 100%);
+  }
+  .w-10\/18 {
+    width: calc(10/18 * 100%);
+  }
+  .w-11 {
+    width: calc(var(--spacing) * 11);
+  }
+  .w-11\/12 {
+    width: calc(11/12 * 100%);
+  }
+  .w-15 {
+    width: calc(var(--spacing) * 15);
+  }
+  .w-15\/18 {
+    width: calc(15/18 * 100%);
+  }
+  .w-16 {
+    width: calc(var(--spacing) * 16);
+  }
+  .w-16\/18 {
+    width: calc(16/18 * 100%);
+  }
+  .w-16\/32 {
+    width: calc(16/32 * 100%);
+  }
+  .w-17 {
+    width: calc(var(--spacing) * 17);
+  }
+  .w-17\/18 {
+    width: calc(17/18 * 100%);
+  }
+  .w-27 {
+    width: calc(var(--spacing) * 27);
+  }
+  .w-27\/32 {
+    width: calc(27/32 * 100%);
+  }
   .w-28 {
     width: calc(var(--spacing) * 28);
   }
+  .w-28\/32 {
+    width: calc(28/32 * 100%);
+  }
+  .w-29 {
+    width: calc(var(--spacing) * 29);
+  }
+  .w-29\/32 {
+    width: calc(29/32 * 100%);
+  }
+  .w-30 {
+    width: calc(var(--spacing) * 30);
+  }
+  .w-30\/32 {
+    width: calc(30/32 * 100%);
+  }
+  .w-31 {
+    width: calc(var(--spacing) * 31);
+  }
+  .w-31\/32 {
+    width: calc(31/32 * 100%);
+  }
+  .w-140 {
+    width: calc(var(--spacing) * 140);
+  }
   .w-\[34\.125rem\] {
     width: 34.125rem;
+  }
+  .w-\[56\] {
+    width: 56;
+  }
+  .w-\[560px\] {
+    width: 560px;
   }
   .w-\[898px\] {
     width: 898px;
@@ -547,8 +619,32 @@
   .grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+  .grid-cols-\[2\,450px\,536px\] {
+    grid-template-columns: 2,450px,536px;
+  }
+  .grid-cols-\[2\,536px\] {
+    grid-template-columns: 2,536px;
+  }
   .grid-cols-\[177px_103px\] {
     grid-template-columns: 177px 103px;
+  }
+  .grid-cols-\[450px\,536px\] {
+    grid-template-columns: 450px,536px;
+  }
+  .grid-cols-\[536px\,auto\] {
+    grid-template-columns: 536px,auto;
+  }
+  .grid-cols-\[536px\] {
+    grid-template-columns: 536px;
+  }
+  .grid-cols-\[auto\,536px\] {
+    grid-template-columns: auto,536px;
+  }
+  .grid-cols-\[fr\,536px\] {
+    grid-template-columns: fr,536px;
+  }
+  .grid-cols-\[repeat\(2\,536px\)\] {
+    grid-template-columns: repeat(2,536px);
   }
   .grid-cols-\[repeat\(3\,360px\)\] {
     grid-template-columns: repeat(3,360px);
