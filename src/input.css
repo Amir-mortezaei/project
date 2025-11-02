@@ -1,7 +1,9 @@
 @import "tailwindcss";
+
 *:focus {
     outline: none;
 }
+
 @font-face {
     font-family: "DanaFaNum";
     src: url("../public/fonts/Dana/woff2/DanaFaNum-Hairline.woff2") format("woff2"),
@@ -83,6 +85,7 @@
     font-style: normal;
     font-display: swap;
 }
+
 /*@font-face {*/
 /*    font-family: "DanaFaNum";*/
 /*    src: url("../public/fonts/Dana/woff2/DanaFaNum-fat.woff2") format("woff2"),*/
@@ -101,6 +104,7 @@
     font-style: normal;
     font-display: swap;
 }
+
 /*@font-face {*/
 /*    font-family: "DanaFaNum";*/
 /*    src: url("../public/fonts/Dana/woff2/DanaFaNum-Heavy.woff2") format("woff2"),*/
@@ -117,6 +121,7 @@
     font-style: normal;
     font-display: swap;
 }
+
 /*Peyda fonts*/
 @font-face {
     font-family: "Peyda";
@@ -126,6 +131,7 @@
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: "Peyda";
     src: url("../public/fonts/Peyda/woff2/PeydaWeb-Bold.woff2") format("woff2"),
@@ -134,6 +140,7 @@
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: "Peyda";
     src: url("../public/fonts/Peyda/woff2/PeydaWeb-Regular.woff2") format("woff2"),
@@ -142,6 +149,7 @@
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: "Peyda";
     src: url("../public/fonts/Peyda/woff2/PeydaWeb-Medium.woff2") format("woff2"),
@@ -150,6 +158,7 @@
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: "Peyda";
     src: url("../public/fonts/Peyda/woff2/PeydaWeb-ExtraBold.woff2") format("woff2"),
@@ -158,6 +167,7 @@
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: "Peyda";
     src: url("../public/fonts/Peyda/woff2/PeydaWeb-Black.woff2") format("woff2"),
@@ -166,6 +176,7 @@
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: "Peyda";
     src: url("../public/fonts/Peyda/woff2/peydaWeb-light.woff2") format("woff2"),
@@ -174,6 +185,7 @@
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: "Peyda";
     src: url("../public/fonts/Peyda/woff2/PeydaWeb-Thin.woff2") format("woff2"),
@@ -186,6 +198,7 @@
 body {
     font-family: "Peyda", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
+
 @theme {
     --text-tiny: 0.8125rem;
 }
@@ -194,34 +207,19 @@ body {
 }
 @layer components {
     .container-custom {
-        @apply mx-auto; /* وسط‌چین و فاصله داخلی پیش‌فرض */
+        @apply mx-auto;
         width: 100%;
-        max-width: 1320px; /* عرض اصلی طراحی */
+        max-width: 1320px;
     }
 
-    /* در نمایشگرهای خیلی بزرگ (بیش از 1920px) وسط‌چینی حفظ شود */
     @media (min-width: 1920px) {
         .container-custom {
             margin-left: auto;
             margin-right: auto;
         }
     }
-
-    /* برای صفحات متوسط */
-    @screen md {
-        .container-custom {
-            @apply px-6;
-        }
-    }
-
-    /* برای موبایل‌ها (عرض کمتر) padding بیشتر برای حفظ فضای مناسب */
-    @screen sm {
-        .container-custom {
-            @apply px-6;
-            max-width: 100%; /* اجازه بده تمام عرض استفاده بشه */
-        }
-    }
 }
+
 @theme {
     --breakpoint-3xl: 120rem;
 }

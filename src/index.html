@@ -7,432 +7,443 @@
     <link rel="stylesheet" href="output.css">
 </head>
 <body>
-    <header class="fixed w-full top-0 bg-white z-50 shadow-xs">
-        <div class="pt-1 bg-linear-[90deg,#C72D80,#1004A4,#49B3F3] hidden lg:block">
-            <div class="w-full h-full bg-white">
-                <nav class="hidden pt-6.5 pb-5.5 px-8 lg:flex flex-row justify-between items-center">
-                    <div class="flex flex-row gap-39">
-                        <a href="#">
-                            <img class="w-28" src="../public/image/png/logo.png" alt="logo image">
-                        </a>
-                        <div class="flex items-center">
-                            <ul class="flex flex-row gap-10">
-                                <li class="relative inline-block group">
-                                    <a class="text-base font-semibold leading-8 hover:text-[#0F048D] transition-all" href="#">رویداد‌ها</a>
-                                    <span class="rounded-[1px] absolute left-1/2 bottom-0 h-[2px] w-0 bg-gradient-to-r from-[#49B3F3] via-[#1004A4] to-[#C72D58] transition-all duration-300 group-hover:w-[40px] group-hover:-translate-x-1/2">
+<!--    <header class="fixed w-full top-0 bg-white z-50 shadow-xs">-->
+<!--        <div class="pt-1 bg-linear-[90deg,#C72D80,#1004A4,#49B3F3] hidden lg:block">-->
+<!--            <div class="w-full h-full bg-white">-->
+<!--                <nav class="hidden pt-6.5 pb-5.5 px-8 lg:flex flex-row justify-between items-center">-->
+<!--                    <div class="flex flex-row gap-39">-->
+<!--                        <a href="#">-->
+<!--                            <img class="w-28" src="../public/image/png/logo.png" alt="logo image">-->
+<!--                        </a>-->
+<!--                        <div class="flex items-center">-->
+<!--                            <ul class="flex flex-row gap-10">-->
+<!--                                <li class="relative inline-block group">-->
+<!--                                    <a class="text-base font-semibold leading-8 hover:text-[#0F048D] transition-all" href="#">رویداد‌ها</a>-->
+<!--                                    <span class="rounded-[1px] absolute left-1/2 bottom-0 h-[2px] w-0 bg-gradient-to-r from-[#49B3F3] via-[#1004A4] to-[#C72D58] transition-all duration-300 group-hover:w-[40px] group-hover:-translate-x-1/2">-->
 
-                                    </span>
-                                </li>
-                                <li class="relative inline-block group">
-                                    <a class="text-base font-semibold leading-8 hover:text-[#0F048D] transition-all" href="#">جهش پارک</a>
-                                    <span class="rounded-[1px] absolute left-1/2 bottom-0 h-[2px] w-0 bg-gradient-to-r from-[#49B3F3] via-[#1004A4] to-[#C72D58] transition-all duration-300 group-hover:w-[40px] group-hover:-translate-x-1/2">
+<!--                                    </span>-->
+<!--                                </li>-->
+<!--                                <li class="relative inline-block group">-->
+<!--                                    <a class="text-base font-semibold leading-8 hover:text-[#0F048D] transition-all" href="#">جهش پارک</a>-->
+<!--                                    <span class="rounded-[1px] absolute left-1/2 bottom-0 h-[2px] w-0 bg-gradient-to-r from-[#49B3F3] via-[#1004A4] to-[#C72D58] transition-all duration-300 group-hover:w-[40px] group-hover:-translate-x-1/2">-->
 
-                                    </span>
-                                </li>
-                                <li class="relative inline-block group">
-                                    <a class="text-base font-semibold leading-8 hover:text-[#0F048D] transition-all" href="#">سرمایه‌گذاری</a>
-                                    <span class="rounded-[1px] absolute left-1/2 bottom-0 h-[2px] w-0 bg-gradient-to-r from-[#49B3F3] via-[#1004A4] to-[#C72D58] transition-all duration-300 group-hover:w-[40px] group-hover:-translate-x-1/2">
+<!--                                    </span>-->
+<!--                                </li>-->
+<!--                                <li class="relative inline-block group">-->
+<!--                                    <a class="text-base font-semibold leading-8 hover:text-[#0F048D] transition-all" href="#">سرمایه‌گذاری</a>-->
+<!--                                    <span class="rounded-[1px] absolute left-1/2 bottom-0 h-[2px] w-0 bg-gradient-to-r from-[#49B3F3] via-[#1004A4] to-[#C72D58] transition-all duration-300 group-hover:w-[40px] group-hover:-translate-x-1/2">-->
 
-                                    </span>
-                                </li>
-                                <li class="relative inline-block group">
-                                    <a class="text-base font-semibold leading-8 hover:text-[#0F048D] transition-all" href="#">جهش مدیا</a>
-                                    <span class="rounded-[1px] absolute left-1/2 bottom-0 h-[2px] w-0 bg-gradient-to-r from-[#49B3F3] via-[#1004A4] to-[#C72D58] transition-all duration-300 group-hover:w-[40px] group-hover:-translate-x-1/2">
+<!--                                    </span>-->
+<!--                                </li>-->
+<!--                                <li class="relative inline-block group">-->
+<!--                                    <a class="text-base font-semibold leading-8 hover:text-[#0F048D] transition-all" href="#">جهش مدیا</a>-->
+<!--                                    <span class="rounded-[1px] absolute left-1/2 bottom-0 h-[2px] w-0 bg-gradient-to-r from-[#49B3F3] via-[#1004A4] to-[#C72D58] transition-all duration-300 group-hover:w-[40px] group-hover:-translate-x-1/2">-->
 
-                                    </span>
-                                </li>
-                                <li class="relative inline-block group">
-                                    <div class="flex flex-row items-center gap-2">
-                                        <a class="text-base font-semibold leading-8 hover:text-[#0F048D] transition-all" href="#">جهش</a>
-                                        <span class="rounded-[1px] absolute left-13/18 bottom-0 h-[2px] w-0 bg-gradient-to-r from-[#49B3F3] via-[#1004A4] to-[#C72D58] transition-all duration-300 group-hover:w-[25px] group-hover:-translate-x-1/2">
+<!--                                    </span>-->
+<!--                                </li>-->
+<!--                                <li class="relative inline-block group">-->
+<!--                                    <div class="flex flex-row items-center gap-2">-->
+<!--                                        <a class="text-base font-semibold leading-8 hover:text-[#0F048D] transition-all" href="#">جهش</a>-->
+<!--                                        <span class="rounded-[1px] absolute left-13/18 bottom-0 h-[2px] w-0 bg-gradient-to-r from-[#49B3F3] via-[#1004A4] to-[#C72D58] transition-all duration-300 group-hover:w-[25px] group-hover:-translate-x-1/2">-->
 
-                                        </span>
-                                        <div class="px-1.25 py-2 cursor-pointer">
-                                            <img src="../public/image/svg/down-arrow.svg" alt="down arrow icon">
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="flex items-center gap-10">
-                        <div class="flex flx-rw items-center gap-2">
-                            <img class="cursor-pointer w-8" src="../public/image/png/Avatar.png" alt="avatar image">
-                            <span class="text-sm font-bold text-[#475467]">
-                                سمانه احمدی
-                            </span>
-                        </div>
-                        <div class="p-1 cursor-pointer">
-                            <img src="../public/image/svg/Alert.svg" alt="notification icon">
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
-        <div class="pt-1 bg-radial-[#C72D80,#C72D80,#1004A4,#49B3F3,#49B3F3] lg:hidden">
-            <div class="w-full h-full bg-white">
-                <nav class="lg:hidden block px-4 py-3">
-                    <div class="flex flex-row items-center justify-between">
-                        <div class="px-0.75 py-1.5 w-fit">
-                            <img src="../public/image/svg/menu-icon.svg" alt="menu icon">
-                        </div>
-                        <span class="text-[#101828] font-bold text-xl">
-                            نوآوری باز
-                        </span>
-                        <img src="../public/image/svg/image-logo-mobile.svg" alt="logo icon">
-                    </div>
-                </nav>
-            </div>
-        </div>
-    <!--   second Header     -->
-        <div class="py-2.5 border-t border-[#EAEEF0]">
-            <div class="container-custom flex flex-row gap-20 items-center">
-                <span class="text-xl font-mono font-bold leading-9 hidden lg:inline-block">
-                    نوآوری باز
-                </span>
-                <ul class="flex flex-row gap-12 items-center lg:gap-16 px-4">
-                    <li class="relative inline-block group">
-                        <a class="text-sm lg:text-base font-semibold lg:leading-7.5 leading-6.5 text-[#101828] hover:text-[#0F048D] transition-all" href="#">
-                            لیست مسابقه‌ها
-                        </a>
-                        <span class="rounded-[1px] absolute left-1/2 -bottom-[11px] h-[2px] w-0 bg-gradient-to-r from-[#49B3F3] via-[#1004A4] to-[#C72D58] transition-all duration-300 group-hover:w-[25px] group-hover:-translate-x-1/2">
+<!--                                        </span>-->
+<!--                                        <div class="px-1.25 py-2 cursor-pointer">-->
+<!--                                            <img src="../public/image/svg/down-arrow.svg" alt="down arrow icon">-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="flex items-center gap-10">-->
+<!--                        <div class="flex flx-rw items-center gap-2">-->
+<!--                            <img class="cursor-pointer w-8" src="../public/image/png/Avatar.png" alt="avatar image">-->
+<!--                            <span class="text-sm font-bold text-[#475467]">-->
+<!--                                سمانه احمدی-->
+<!--                            </span>-->
+<!--                        </div>-->
+<!--                        <div class="p-1 cursor-pointer">-->
+<!--                            <img src="../public/image/svg/Alert.svg" alt="notification icon">-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </nav>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="pt-1 bg-radial-[#C72D80,#C72D80,#1004A4,#49B3F3,#49B3F3] lg:hidden">-->
+<!--            <div class="w-full h-full bg-white">-->
+<!--                <nav class="lg:hidden block px-4 py-3">-->
+<!--                    <div class="flex flex-row items-center justify-between">-->
+<!--                        <div class="px-0.75 py-1.5 w-fit">-->
+<!--                            <img src="../public/image/svg/menu-icon.svg" alt="menu icon">-->
+<!--                        </div>-->
+<!--                        <span class="text-[#101828] font-bold text-xl">-->
+<!--                            نوآوری باز-->
+<!--                        </span>-->
+<!--                        <img src="../public/image/svg/image-logo-mobile.svg" alt="logo icon">-->
+<!--                    </div>-->
+<!--                </nav>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    &lt;!&ndash;   second Header     &ndash;&gt;-->
+<!--        <div class="py-2.5 border-t border-[#EAEEF0]">-->
+<!--            <div class="container-custom flex flex-row gap-20 items-center">-->
+<!--                <span class="text-xl font-mono font-bold leading-9 hidden lg:inline-block">-->
+<!--                    نوآوری باز-->
+<!--                </span>-->
+<!--                <ul class="flex flex-row gap-12 items-center lg:gap-16 px-4">-->
+<!--                    <li class="relative inline-block group">-->
+<!--                        <a class="text-sm lg:text-base font-semibold lg:leading-7.5 leading-6.5 text-[#101828] hover:text-[#0F048D] transition-all" href="#">-->
+<!--                            لیست مسابقه‌ها-->
+<!--                        </a>-->
+<!--                        <span class="rounded-[1px] absolute left-1/2 -bottom-[11px] h-[2px] w-0 bg-gradient-to-r from-[#49B3F3] via-[#1004A4] to-[#C72D58] transition-all duration-300 group-hover:w-[25px] group-hover:-translate-x-1/2">-->
 
-                        </span>
-                    </li>
-                    <li class="relative inline-block group">
-                        <a class="lg:text-base text-sm font-semibold lg:leading-7.5 leading-6.5 text-[#101828] hover:text-[#0F048D] transition-all" href="#">
-                            مسابقه‌های فعال
-                        </a>
-                        <span class="rounded-[1px] absolute left-1/2 -bottom-[11px] h-[2px] w-0 bg-gradient-to-r from-[#49B3F3] via-[#1004A4] to-[#C72D58] transition-all duration-300 group-hover:w-[25px] group-hover:-translate-x-1/2">
+<!--                        </span>-->
+<!--                    </li>-->
+<!--                    <li class="relative inline-block group">-->
+<!--                        <a class="lg:text-base text-sm font-semibold lg:leading-7.5 leading-6.5 text-[#101828] hover:text-[#0F048D] transition-all" href="#">-->
+<!--                            مسابقه‌های فعال-->
+<!--                        </a>-->
+<!--                        <span class="rounded-[1px] absolute left-1/2 -bottom-[11px] h-[2px] w-0 bg-gradient-to-r from-[#49B3F3] via-[#1004A4] to-[#C72D58] transition-all duration-300 group-hover:w-[25px] group-hover:-translate-x-1/2">-->
 
-                        </span>
-                    </li>
-                    <li class="relative inline-block group">
-                        <a class="text-base font-semibold leading-7.5 text-[#101828] hover:text-[#0F048D] transition-all hidden lg:inline-block" href="#">
-                            مسابقه‌های درحال رأی‌گیری
-                        </a>
-                        <span class="rounded-[1px] absolute left-1/2 -bottom-[11px] h-[2px] w-0 bg-gradient-to-r from-[#49B3F3] via-[#1004A4] to-[#C72D58] transition-all duration-300 group-hover:w-[25px] group-hover:-translate-x-1/2">
+<!--                        </span>-->
+<!--                    </li>-->
+<!--                    <li class="relative inline-block group">-->
+<!--                        <a class="text-base font-semibold leading-7.5 text-[#101828] hover:text-[#0F048D] transition-all hidden lg:inline-block" href="#">-->
+<!--                            مسابقه‌های درحال رأی‌گیری-->
+<!--                        </a>-->
+<!--                        <span class="rounded-[1px] absolute left-1/2 -bottom-[11px] h-[2px] w-0 bg-gradient-to-r from-[#49B3F3] via-[#1004A4] to-[#C72D58] transition-all duration-300 group-hover:w-[25px] group-hover:-translate-x-1/2">-->
 
-                        </span>
-                    </li>
-                    <li class="relative inline-block group">
-                        <a class="text-base font-semibold leading-7.5 text-[#101828] hover:text-[#0F048D] transition-all hidden lg:inline-block" href="#">
-                            لیست شرکت‌ها
-                        </a>
-                        <span class="rounded-[1px] absolute left-1/2 -bottom-[11px] h-[2px] w-0 bg-gradient-to-r from-[#49B3F3] via-[#1004A4] to-[#C72D58] transition-all duration-300 group-hover:w-[25px] group-hover:-translate-x-1/2">
+<!--                        </span>-->
+<!--                    </li>-->
+<!--                    <li class="relative inline-block group">-->
+<!--                        <a class="text-base font-semibold leading-7.5 text-[#101828] hover:text-[#0F048D] transition-all hidden lg:inline-block" href="#">-->
+<!--                            لیست شرکت‌ها-->
+<!--                        </a>-->
+<!--                        <span class="rounded-[1px] absolute left-1/2 -bottom-[11px] h-[2px] w-0 bg-gradient-to-r from-[#49B3F3] via-[#1004A4] to-[#C72D58] transition-all duration-300 group-hover:w-[25px] group-hover:-translate-x-1/2">-->
 
-                        </span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="pb-[11.375rem] mx-auto container-custom pt-[9.375rem] relative">
-            <img class="absolute top-[0px] -left-[120px] w-[898px]" src="../public/image/png/logo-pattern.png" alt="logo pattern">
-            <div class="flex flex-row justify-between items-center">
-                <div class="flex flex-col gap-12 justify-center">
-                    <div class="flex flex-col gap-2">
-                        <span class="font-mono leading-[4.125rem] text-4xl font-black text-[#101828]">
-                            نوآوری باز
-                        </span>
-                        <span class="font-mono text-[2rem] font-bold leading-14.5 text-[#101828]">
-                            هیچ محدودیتی در نوآوری وجود ندارد.
-                        </span>
-                    </div>
-                    <div class="flex flex-col gap-6.5">
-                        <span class="leading-8 text-[#475A67] text-lg font-medium">
-                            با ایجاد مسابقه بهترین راه‌حل‌ها را برای چالش‌هایتان کشف و اجرا کنید.
-                        </span>
-                        <div class="w-fit py-2 px-16 bg-[#101828] rounded-lg flex flex-row gap-2 hover:opacity-85 cursor-pointer transition-all">
-                            <span class="text-base font-bold leading-7.5 text-white">
-                                ایجاد مسابقه
-                            </span>
-                            <img src="../public/image/svg/arrow-left.svg" alt="left arrow icon">
-                        </div>
-                    </div>
-                </div>
-                <div class="relative">
-                    <img src="../public/image/png/main-image.png" alt="image">
-                    <img class="absolute -left-[100px] -bottom-[200px]" src="../public/image/svg/Group.svg" alt="jahesh logo">
-                </div>
-            </div>
-        </div>
-        <div class="pb-[6.5rem] pt-20">
-            <div class="grid grid-cols-2 mx-auto container-custom items-center">
-                <div class="relative">
-                    <img src="../public/image/png/image.png" alt="image">
-                    <img class="absolute -right-[100px] -top-[100px] rotate-180" src="../public/image/svg/Group.svg" alt="jahesh logo">
-                </div>
-                <div class="flex flex-col gap-9.5">
-                    <span class="text-[#101828] text-[2rem] font-bold leading-14.5 font-mono">
-                        توضیح درباره نوآوری باز جهش
-                    </span>
-                    <span class="text-[#475A67] leading-7.5 text-base font-normal w-140">
-                        به گفته یکی از افشاگران باسابقه، کابل درون جعبه مدل‌های آیفون ۱۵ می‌تواند به سرعت انتقال USB 2.0 محدود شود. او ادعا می‌کند که این کابل‌ها دارای سرعت انتقال داده USB 2.0 هستند که حداکثر به ۴۸۰ مگابایت بر ثانیه می‌رسد و مشابه لایتنینگ است. مدل‌های پرو آیفون ۱۵ ممکن است بتوانند با یک کابل تاندربولت جداگانه، از سرعت انتقال سریع‌تر تاندربولت پشتیبانی کنند. این یعنی افرادی که آیفون ۱۵ پرو یا آیفون ۱۵ پرو مکس (اولترا) را خریداری می‌کنند، باید کابل جداگانه و اضافی بخرند تا شاهد سرعت بیشتر آن گوشی‌ها باشند.
-                    </span>
-                </div>
-            </div>
-        </div>
-        <div class="mx-auto container-custom pt-[6.5rem] pb-16">
-            <div class="flex flex-col gap-12 px-56 relative">
-                <img class="absolute -top-[322px] -right-[175px] -z-30" src="../public/image/svg/circle-pattern.svg" alt="circle pattern">
-                <span class="text-[#101828] text-2xl font-bold font-mono">
-                    مسابقه‌های فعال
-                </span>
-                <div class="flex flex-col">
-                    <div class="flex flex-row justify-between py-6 pr-6 pl-10 shadow-xs rounded-lg bg-white">
-                        <div class="flex flex-col gap-8">
-                            <div class="flex flex-col gap-2">
-                                <div class="flex flex-row gap-1 items-center">
-                                    <img src="../public/image/svg/building.svg" alt="building icon">
-                                    <span class="text-tiny font-semibold leading-6 text-[#667985]">
-                                        کارشناسی توسط شرکت
-                                    </span>
-                                </div>
-                                <span class="text-[#1D2E39] text-lg font-bold leading-8">
-                                    مسابقه حل چالش کد‌نویسی همکاران سیستم به زبان پایتون
-                                </span>
-                                <span class="text-[#475A67] text-sm leading-6.5 font-normal w-[34.125rem]">
-                                    به گفته یکی از افشاگران باسابقه، کابل درون جعبه مدل‌های آیفون ۱۵ می‌تواند به سرعت انتقال USB 2.0 محدود شود. او ادعا می‌کند که این کابل‌ها دارای سرعت انتقال داده USB 2.0 هستند که حداکثر...
-                                </span>
-                            </div>
-                            <div class="flex flex-row gap-2 items-center pt-3 border-t border-[#EAEEF0]">
-                                <img class="w-8" src="../public/image/png/company-logo.png" alt="Company logo">
-                                <span class="text-[#1D2E39] text-sm leading-6.5 font-bold">
-                                    همكاران سيستم
-                                </span>
-                            </div>
-                        </div>
-                        <div class="py-9.25 pr-8 border-r border-[#EAEEF0]">
-                            <div class="flex flex-col gap-8">
-                                <div class="flex flex-col gap-1">
-                                    <div class="flex flex-row gap-1 items-center">
-                                        <span class="text-sm font-normal leading-6.5 text-[#667985]">
-                                            <span class="text-sm font-bold leading-6.5 text-[#475A67]">
-                                                ۴
-                                            </span>
-                                            روز
-                                        </span>
-                                        <span class="text-sm font-normal leading-6.5 text-[#667985]">
-                                            <span class="text-sm font-bold leading-6.5 text-[#475A67]">
-                                                ۲۳
-                                            </span>
-                                            ساعت
-                                        </span>
-                                        <span class="text-sm font-normal leading-6.5 text-[#667985]">
-                                            <span class="text-sm font-bold leading-6.5 text-[#475A67]">
-                                                ۲۴
-                                            </span>
-                                            دقیقه
-                                        </span>
-                                    </div>
-                                    <span class="text-[#49B3F3] text-sm leading-6.5 font-semibold">
-                                        درحال دریافت پیشنهادها
-                                    </span>
-                                </div>
-                                <div class="px-4 py-1.5 flex flex-row gap-2 items-center bg-[#101828] rounded-lg cursor-pointer hover:opacity-85 transition">
-                                    <span class="text-white font-semibold text-sm leading-6.5">
-                                        مشاهده و ارسال پیشنهاد
-                                    </span>
-                                    <img src="../public/image/svg/left-arrow.svg" alt="left arrow icon">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex flex-row justify-between py-6 pr-6 pl-10 shadow-xs rounded-lg">
-                        <div class="flex flex-col gap-8">
-                            <div class="flex flex-col gap-2">
-                                <div class="flex flex-row gap-1 items-center">
-                                    <img src="../public/image/svg/building.svg" alt="building icon">
-                                    <span class="text-tiny font-semibold leading-6 text-[#667985]">
-                                        کارشناسی توسط شرکت
-                                    </span>
-                                </div>
-                                <span class="text-[#1D2E39] text-lg font-bold leading-8">
-                                    مسابقه حل چالش کد‌نویسی همکاران سیستم به زبان پایتون
-                                </span>
-                                <span class="text-[#475A67] text-sm leading-6.5 font-normal w-[34.125rem]">
-                                    به گفته یکی از افشاگران باسابقه، کابل درون جعبه مدل‌های آیفون ۱۵ می‌تواند به سرعت انتقال USB 2.0 محدود شود. او ادعا می‌کند که این کابل‌ها دارای سرعت انتقال داده USB 2.0 هستند که حداکثر...
-                                </span>
-                            </div>
-                            <div class="flex flex-row gap-2 items-center pt-3 border-t border-[#EAEEF0]">
-                                <img class="w-8" src="../public/image/png/company-logo.png" alt="Company logo">
-                                <span class="text-[#1D2E39] text-sm leading-6.5 font-bold">
-                                    همكاران سيستم
-                                </span>
-                            </div>
-                        </div>
-                        <div class="py-9.25 pr-8 border-r border-[#EAEEF0]">
-                            <div class="flex flex-col gap-8">
-                                <div class="flex flex-col gap-1">
-                                    <div class="flex flex-row gap-1 items-center">
-                                        <span class="text-sm font-normal leading-6.5 text-[#667985]">
-                                            <span class="text-sm font-bold leading-6.5 text-[#475A67]">
-                                                ۴
-                                            </span>
-                                            روز
-                                        </span>
-                                        <span class="text-sm font-normal leading-6.5 text-[#667985]">
-                                            <span class="text-sm font-bold leading-6.5 text-[#475A67]">
-                                                ۲۳
-                                            </span>
-                                            ساعت
-                                        </span>
-                                        <span class="text-sm font-normal leading-6.5 text-[#667985]">
-                                            <span class="text-sm font-bold leading-6.5 text-[#475A67]">
-                                                ۲۴
-                                            </span>
-                                            دقیقه
-                                        </span>
-                                    </div>
-                                    <span class="text-[#49B3F3] text-sm leading-6.5 font-semibold">
-                                        درحال دریافت پیشنهادها
-                                    </span>
-                                </div>
-                                <div class="px-4 py-1.5 flex flex-row gap-2 items-center bg-[#101828] rounded-lg cursor-pointer hover:opacity-85 transition">
-                                    <span class="text-white font-semibold text-sm leading-6.5">
-                                        مشاهده و ارسال پیشنهاد
-                                    </span>
-                                    <img src="../public/image/svg/left-arrow.svg" alt="left arrow icon">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex flex-row justify-between py-6 pr-6 pl-10 shadow-xs rounded-lg">
-                        <div class="flex flex-col gap-8">
-                            <div class="flex flex-col gap-2">
-                                <div class="flex flex-row gap-1 items-center">
-                                    <img src="../public/image/svg/building.svg" alt="building icon">
-                                    <span class="text-tiny font-semibold leading-6 text-[#667985]">
-                                        کارشناسی توسط شرکت
-                                    </span>
-                                </div>
-                                <span class="text-[#1D2E39] text-lg font-bold leading-8">
-                                    مسابقه حل چالش کد‌نویسی همکاران سیستم به زبان پایتون
-                                </span>
-                                <span class="text-[#475A67] text-sm leading-6.5 font-normal w-[34.125rem]">
-                                    به گفته یکی از افشاگران باسابقه، کابل درون جعبه مدل‌های آیفون ۱۵ می‌تواند به سرعت انتقال USB 2.0 محدود شود. او ادعا می‌کند که این کابل‌ها دارای سرعت انتقال داده USB 2.0 هستند که حداکثر...
-                                </span>
-                            </div>
-                            <div class="flex flex-row gap-2 items-center pt-3 border-t border-[#EAEEF0]">
-                                <img class="w-8" src="../public/image/png/company-logo.png" alt="Company logo">
-                                <span class="text-[#1D2E39] text-sm leading-6.5 font-bold">
-                                    همكاران سيستم
-                                </span>
-                            </div>
-                        </div>
-                        <div class="py-9.25 pr-8 border-r border-[#EAEEF0]">
-                            <div class="flex flex-col gap-8">
-                                <div class="flex flex-col gap-1">
-                                    <div class="flex flex-row gap-1 items-center">
-                                        <span class="text-sm font-normal leading-6.5 text-[#667985]">
-                                            <span class="text-sm font-bold leading-6.5 text-[#475A67]">
-                                                ۴
-                                            </span>
-                                            روز
-                                        </span>
-                                        <span class="text-sm font-normal leading-6.5 text-[#667985]">
-                                            <span class="text-sm font-bold leading-6.5 text-[#475A67]">
-                                                ۲۳
-                                            </span>
-                                            ساعت
-                                        </span>
-                                        <span class="text-sm font-normal leading-6.5 text-[#667985]">
-                                            <span class="text-sm font-bold leading-6.5 text-[#475A67]">
-                                                ۲۴
-                                            </span>
-                                            دقیقه
-                                        </span>
-                                    </div>
-                                    <span class="text-[#49B3F3] text-sm leading-6.5 font-semibold">
-                                        درحال دریافت پیشنهادها
-                                    </span>
-                                </div>
-                                <div class="px-4 py-1.5 flex flex-row gap-2 items-center bg-[#101828] rounded-lg cursor-pointer hover:opacity-85 transition">
-                                    <span class="text-white font-semibold text-sm leading-6.5">
-                                        مشاهده و ارسال پیشنهاد
-                                    </span>
-                                    <img src="../public/image/svg/left-arrow.svg" alt="left arrow icon">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex flex-row justify-between py-6 pr-6 pl-10 shadow-xs rounded-lg">
-                        <div class="flex flex-col gap-8">
-                            <div class="flex flex-col gap-2">
-                                <div class="flex flex-row gap-1 items-center">
-                                    <img src="../public/image/svg/building.svg" alt="building icon">
-                                    <span class="text-tiny font-semibold leading-6 text-[#667985]">
-                                        کارشناسی توسط شرکت
-                                    </span>
-                                </div>
-                                <span class="text-[#1D2E39] text-lg font-bold leading-8">
-                                    مسابقه حل چالش کد‌نویسی همکاران سیستم به زبان پایتون
-                                </span>
-                                <span class="text-[#475A67] text-sm leading-6.5 font-normal w-[34.125rem]">
-                                    به گفته یکی از افشاگران باسابقه، کابل درون جعبه مدل‌های آیفون ۱۵ می‌تواند به سرعت انتقال USB 2.0 محدود شود. او ادعا می‌کند که این کابل‌ها دارای سرعت انتقال داده USB 2.0 هستند که حداکثر...
-                                </span>
-                            </div>
-                            <div class="flex flex-row gap-2 items-center pt-3 border-t border-[#EAEEF0]">
-                                <img class="w-8" src="../public/image/png/company-logo.png" alt="Company logo">
-                                <span class="text-[#1D2E39] text-sm leading-6.5 font-bold">
-                                    همكاران سيستم
-                                </span>
-                            </div>
-                        </div>
-                        <div class="py-9.25 pr-8 border-r border-[#EAEEF0]">
-                            <div class="flex flex-col gap-8">
-                                <div class="flex flex-col gap-1">
-                                    <div class="flex flex-row gap-1 items-center">
-                                        <span class="text-sm font-normal leading-6.5 text-[#667985]">
-                                            <span class="text-sm font-bold leading-6.5 text-[#475A67]">
-                                                ۴
-                                            </span>
-                                            روز
-                                        </span>
-                                        <span class="text-sm font-normal leading-6.5 text-[#667985]">
-                                            <span class="text-sm font-bold leading-6.5 text-[#475A67]">
-                                                ۲۳
-                                            </span>
-                                            ساعت
-                                        </span>
-                                        <span class="text-sm font-normal leading-6.5 text-[#667985]">
-                                            <span class="text-sm font-bold leading-6.5 text-[#475A67]">
-                                                ۲۴
-                                            </span>
-                                            دقیقه
-                                        </span>
-                                    </div>
-                                    <span class="text-[#49B3F3] text-sm leading-6.5 font-semibold">
-                                        درحال دریافت پیشنهادها
-                                    </span>
-                                </div>
-                                <div class="px-4 py-1.5 flex flex-row gap-2 items-center bg-[#101828] rounded-lg cursor-pointer hover:opacity-85 transition">
-                                    <span class="text-white font-semibold text-sm leading-6.5">
-                                        مشاهده و ارسال پیشنهاد
-                                    </span>
-                                    <img src="../public/image/svg/left-arrow.svg" alt="left arrow icon">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex justify-center">
-                    <div class="px-[7.5625rem] py-2 rounded-lg flex flex-row gap-2 items-center cursor-pointer hover:bg-gray-200 transition justify-center w-fit border border-[#D0D8DD]">
-                        <span class="text-base text-[#344754] font-bold leading-7.5">
-                            مشاهده همه مسابقه‌ها
-                        </span>
-                        <img src="../public/image/svg/black-left-arrow.svg" alt="arrow icon">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-    <footer class="flex flex-col gap-4.5">
-        <div class="py-12 bg-[#F2F5F7]">
-            <div class="flex flex-row justify-between mx-auto container-custom">
-                <div class="flex flex-col gap-1 lg:gap-2 px-4 lg:p-0">
+<!--                        </span>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </header>-->
+<!--    <main>-->
+<!--        <div class="lg:hidden block pt-[8.1875rem] px-4">-->
+<!--            <div class="relative">-->
+<!--                <img src="../public/image/png/main-image-mobile.png" alt="main image">-->
+<!--                <div class="px-20 left-[2.08rem] -bottom-3.5 bg-[#FFFFFFA3] rounded-lg backdrop-blur-xs py-2 flex items-center justify-center absolute">-->
+<!--                    <span class="text-[#101828] font-mono font-black text-2xl leading-11">-->
+<!--                        نوآوری باز-->
+<!--                    </span>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="pb-[11.375rem] mx-auto container-custom pt-[9.375rem] relative hidden lg:block">-->
+
+<!--            <img class="absolute top-[0px] -left-[120px] w-[898px]" src="../public/image/png/logo-pattern.png" alt="logo pattern">-->
+<!--            <div class="flex flex-row justify-between items-center">-->
+<!--                <div class="flex flex-col gap-12 justify-center">-->
+<!--                    <div class="flex flex-col gap-2">-->
+<!--                        <span class="font-mono leading-[4.125rem] text-4xl font-black text-[#101828]">-->
+<!--                            نوآوری باز-->
+<!--                        </span>-->
+<!--                        <span class="font-mono text-[2rem] font-bold leading-14.5 text-[#101828]">-->
+<!--                            هیچ محدودیتی در نوآوری وجود ندارد.-->
+<!--                        </span>-->
+<!--                    </div>-->
+<!--                    <div class="flex flex-col gap-6.5">-->
+<!--                        <span class="leading-8 text-[#475A67] text-lg font-medium">-->
+<!--                            با ایجاد مسابقه بهترین راه‌حل‌ها را برای چالش‌هایتان کشف و اجرا کنید.-->
+<!--                        </span>-->
+<!--                        <div class="w-fit py-2 px-16 bg-[#101828] rounded-lg flex flex-row gap-2 hover:opacity-85 cursor-pointer transition-all">-->
+<!--                            <span class="text-base font-bold leading-7.5 text-white">-->
+<!--                                ایجاد مسابقه-->
+<!--                            </span>-->
+<!--                            <img src="../public/image/svg/arrow-left.svg" alt="left arrow icon">-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="relative">-->
+<!--                    <img src="../public/image/png/main-image.png" alt="image">-->
+<!--                    <img class="absolute -left-[100px] -bottom-[200px]" src="../public/image/svg/Group.svg" alt="jahesh logo">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="pb-[6.5rem] pt-20">-->
+<!--            <div class="grid lg:grid-cols-2 mx-auto container-custom items-center">-->
+<!--                <div class="relative">-->
+<!--                    <img src="../public/image/png/image.png" alt="image">-->
+<!--                    <img class="absolute -right-[100px] -top-[100px] rotate-180" src="../public/image/svg/Group.svg" alt="jahesh logo">-->
+<!--                </div>-->
+<!--                <div class="flex flex-col gap-9.5">-->
+<!--                    <span class="text-[#101828] text-[2rem] font-bold leading-14.5 font-mono">-->
+<!--                        توضیح درباره نوآوری باز جهش-->
+<!--                    </span>-->
+<!--                    <span class="text-[#475A67] leading-7.5 text-base font-normal w-140">-->
+<!--                        به گفته یکی از افشاگران باسابقه، کابل درون جعبه مدل‌های آیفون ۱۵ می‌تواند به سرعت انتقال USB 2.0 محدود شود. او ادعا می‌کند که این کابل‌ها دارای سرعت انتقال داده USB 2.0 هستند که حداکثر به ۴۸۰ مگابایت بر ثانیه می‌رسد و مشابه لایتنینگ است. مدل‌های پرو آیفون ۱۵ ممکن است بتوانند با یک کابل تاندربولت جداگانه، از سرعت انتقال سریع‌تر تاندربولت پشتیبانی کنند. این یعنی افرادی که آیفون ۱۵ پرو یا آیفون ۱۵ پرو مکس (اولترا) را خریداری می‌کنند، باید کابل جداگانه و اضافی بخرند تا شاهد سرعت بیشتر آن گوشی‌ها باشند.-->
+<!--                    </span>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="mx-auto container-custom pt-[6.5rem] pb-16">-->
+<!--            <div class="flex flex-col gap-12 lg:px-56 relative">-->
+<!--                <img class="absolute -top-[322px] -right-[175px] -z-30" src="../public/image/svg/circle-pattern.svg" alt="circle pattern">-->
+<!--                <span class="text-[#101828] text-2xl font-bold font-mono">-->
+<!--                    مسابقه‌های فعال-->
+<!--                </span>-->
+<!--                <div class="lg:flex hidden flex-col">-->
+<!--                    <div class="flex flex-row justify-between py-6 pr-6 pl-10 shadow-xs rounded-lg bg-white">-->
+<!--                        <div class="flex flex-col gap-8">-->
+<!--                            <div class="flex flex-col gap-2">-->
+<!--                                <div class="flex flex-row gap-1 items-center">-->
+<!--                                    <img src="../public/image/svg/building.svg" alt="building icon">-->
+<!--                                    <span class="text-tiny font-semibold leading-6 text-[#667985]">-->
+<!--                                        کارشناسی توسط شرکت-->
+<!--                                    </span>-->
+<!--                                </div>-->
+<!--                                <span class="text-[#1D2E39] text-lg font-bold leading-8">-->
+<!--                                    مسابقه حل چالش کد‌نویسی همکاران سیستم به زبان پایتون-->
+<!--                                </span>-->
+<!--                                <span class="text-[#475A67] text-sm leading-6.5 font-normal w-[34.125rem]">-->
+<!--                                    به گفته یکی از افشاگران باسابقه، کابل درون جعبه مدل‌های آیفون ۱۵ می‌تواند به سرعت انتقال USB 2.0 محدود شود. او ادعا می‌کند که این کابل‌ها دارای سرعت انتقال داده USB 2.0 هستند که حداکثر...-->
+<!--                                </span>-->
+<!--                            </div>-->
+<!--                            <div class="flex flex-row gap-2 items-center pt-3 border-t border-[#EAEEF0]">-->
+<!--                                <img class="w-8" src="../public/image/png/company-logo.png" alt="Company logo">-->
+<!--                                <span class="text-[#1D2E39] text-sm leading-6.5 font-bold">-->
+<!--                                    همكاران سيستم-->
+<!--                                </span>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="py-9.25 pr-8 border-r border-[#EAEEF0]">-->
+<!--                            <div class="flex flex-col gap-8">-->
+<!--                                <div class="flex flex-col gap-1">-->
+<!--                                    <div class="flex flex-row gap-1 items-center">-->
+<!--                                        <span class="text-sm font-normal leading-6.5 text-[#667985]">-->
+<!--                                            <span class="text-sm font-bold leading-6.5 text-[#475A67]">-->
+<!--                                                ۴-->
+<!--                                            </span>-->
+<!--                                            روز-->
+<!--                                        </span>-->
+<!--                                        <span class="text-sm font-normal leading-6.5 text-[#667985]">-->
+<!--                                            <span class="text-sm font-bold leading-6.5 text-[#475A67]">-->
+<!--                                                ۲۳-->
+<!--                                            </span>-->
+<!--                                            ساعت-->
+<!--                                        </span>-->
+<!--                                        <span class="text-sm font-normal leading-6.5 text-[#667985]">-->
+<!--                                            <span class="text-sm font-bold leading-6.5 text-[#475A67]">-->
+<!--                                                ۲۴-->
+<!--                                            </span>-->
+<!--                                            دقیقه-->
+<!--                                        </span>-->
+<!--                                    </div>-->
+<!--                                    <span class="text-[#49B3F3] text-sm leading-6.5 font-semibold">-->
+<!--                                        درحال دریافت پیشنهادها-->
+<!--                                    </span>-->
+<!--                                </div>-->
+<!--                                <div class="px-4 py-1.5 flex flex-row gap-2 items-center bg-[#101828] rounded-lg cursor-pointer hover:opacity-85 transition">-->
+<!--                                    <span class="text-white font-semibold text-sm leading-6.5">-->
+<!--                                        مشاهده و ارسال پیشنهاد-->
+<!--                                    </span>-->
+<!--                                    <img src="../public/image/svg/left-arrow.svg" alt="left arrow icon">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="flex flex-row justify-between py-6 pr-6 pl-10 shadow-xs rounded-lg">-->
+<!--                        <div class="flex flex-col gap-8">-->
+<!--                            <div class="flex flex-col gap-2">-->
+<!--                                <div class="flex flex-row gap-1 items-center">-->
+<!--                                    <img src="../public/image/svg/building.svg" alt="building icon">-->
+<!--                                    <span class="text-tiny font-semibold leading-6 text-[#667985]">-->
+<!--                                        کارشناسی توسط شرکت-->
+<!--                                    </span>-->
+<!--                                </div>-->
+<!--                                <span class="text-[#1D2E39] text-lg font-bold leading-8">-->
+<!--                                    مسابقه حل چالش کد‌نویسی همکاران سیستم به زبان پایتون-->
+<!--                                </span>-->
+<!--                                <span class="text-[#475A67] text-sm leading-6.5 font-normal w-[34.125rem]">-->
+<!--                                    به گفته یکی از افشاگران باسابقه، کابل درون جعبه مدل‌های آیفون ۱۵ می‌تواند به سرعت انتقال USB 2.0 محدود شود. او ادعا می‌کند که این کابل‌ها دارای سرعت انتقال داده USB 2.0 هستند که حداکثر...-->
+<!--                                </span>-->
+<!--                            </div>-->
+<!--                            <div class="flex flex-row gap-2 items-center pt-3 border-t border-[#EAEEF0]">-->
+<!--                                <img class="w-8" src="../public/image/png/company-logo.png" alt="Company logo">-->
+<!--                                <span class="text-[#1D2E39] text-sm leading-6.5 font-bold">-->
+<!--                                    همكاران سيستم-->
+<!--                                </span>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="py-9.25 pr-8 border-r border-[#EAEEF0]">-->
+<!--                            <div class="flex flex-col gap-8">-->
+<!--                                <div class="flex flex-col gap-1">-->
+<!--                                    <div class="flex flex-row gap-1 items-center">-->
+<!--                                        <span class="text-sm font-normal leading-6.5 text-[#667985]">-->
+<!--                                            <span class="text-sm font-bold leading-6.5 text-[#475A67]">-->
+<!--                                                ۴-->
+<!--                                            </span>-->
+<!--                                            روز-->
+<!--                                        </span>-->
+<!--                                        <span class="text-sm font-normal leading-6.5 text-[#667985]">-->
+<!--                                            <span class="text-sm font-bold leading-6.5 text-[#475A67]">-->
+<!--                                                ۲۳-->
+<!--                                            </span>-->
+<!--                                            ساعت-->
+<!--                                        </span>-->
+<!--                                        <span class="text-sm font-normal leading-6.5 text-[#667985]">-->
+<!--                                            <span class="text-sm font-bold leading-6.5 text-[#475A67]">-->
+<!--                                                ۲۴-->
+<!--                                            </span>-->
+<!--                                            دقیقه-->
+<!--                                        </span>-->
+<!--                                    </div>-->
+<!--                                    <span class="text-[#49B3F3] text-sm leading-6.5 font-semibold">-->
+<!--                                        درحال دریافت پیشنهادها-->
+<!--                                    </span>-->
+<!--                                </div>-->
+<!--                                <div class="px-4 py-1.5 flex flex-row gap-2 items-center bg-[#101828] rounded-lg cursor-pointer hover:opacity-85 transition">-->
+<!--                                    <span class="text-white font-semibold text-sm leading-6.5">-->
+<!--                                        مشاهده و ارسال پیشنهاد-->
+<!--                                    </span>-->
+<!--                                    <img src="../public/image/svg/left-arrow.svg" alt="left arrow icon">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="flex flex-row justify-between py-6 pr-6 pl-10 shadow-xs rounded-lg">-->
+<!--                        <div class="flex flex-col gap-8">-->
+<!--                            <div class="flex flex-col gap-2">-->
+<!--                                <div class="flex flex-row gap-1 items-center">-->
+<!--                                    <img src="../public/image/svg/building.svg" alt="building icon">-->
+<!--                                    <span class="text-tiny font-semibold leading-6 text-[#667985]">-->
+<!--                                        کارشناسی توسط شرکت-->
+<!--                                    </span>-->
+<!--                                </div>-->
+<!--                                <span class="text-[#1D2E39] text-lg font-bold leading-8">-->
+<!--                                    مسابقه حل چالش کد‌نویسی همکاران سیستم به زبان پایتون-->
+<!--                                </span>-->
+<!--                                <span class="text-[#475A67] text-sm leading-6.5 font-normal w-[34.125rem]">-->
+<!--                                    به گفته یکی از افشاگران باسابقه، کابل درون جعبه مدل‌های آیفون ۱۵ می‌تواند به سرعت انتقال USB 2.0 محدود شود. او ادعا می‌کند که این کابل‌ها دارای سرعت انتقال داده USB 2.0 هستند که حداکثر...-->
+<!--                                </span>-->
+<!--                            </div>-->
+<!--                            <div class="flex flex-row gap-2 items-center pt-3 border-t border-[#EAEEF0]">-->
+<!--                                <img class="w-8" src="../public/image/png/company-logo.png" alt="Company logo">-->
+<!--                                <span class="text-[#1D2E39] text-sm leading-6.5 font-bold">-->
+<!--                                    همكاران سيستم-->
+<!--                                </span>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="py-9.25 pr-8 border-r border-[#EAEEF0]">-->
+<!--                            <div class="flex flex-col gap-8">-->
+<!--                                <div class="flex flex-col gap-1">-->
+<!--                                    <div class="flex flex-row gap-1 items-center">-->
+<!--                                        <span class="text-sm font-normal leading-6.5 text-[#667985]">-->
+<!--                                            <span class="text-sm font-bold leading-6.5 text-[#475A67]">-->
+<!--                                                ۴-->
+<!--                                            </span>-->
+<!--                                            روز-->
+<!--                                        </span>-->
+<!--                                        <span class="text-sm font-normal leading-6.5 text-[#667985]">-->
+<!--                                            <span class="text-sm font-bold leading-6.5 text-[#475A67]">-->
+<!--                                                ۲۳-->
+<!--                                            </span>-->
+<!--                                            ساعت-->
+<!--                                        </span>-->
+<!--                                        <span class="text-sm font-normal leading-6.5 text-[#667985]">-->
+<!--                                            <span class="text-sm font-bold leading-6.5 text-[#475A67]">-->
+<!--                                                ۲۴-->
+<!--                                            </span>-->
+<!--                                            دقیقه-->
+<!--                                        </span>-->
+<!--                                    </div>-->
+<!--                                    <span class="text-[#49B3F3] text-sm leading-6.5 font-semibold">-->
+<!--                                        درحال دریافت پیشنهادها-->
+<!--                                    </span>-->
+<!--                                </div>-->
+<!--                                <div class="px-4 py-1.5 flex flex-row gap-2 items-center bg-[#101828] rounded-lg cursor-pointer hover:opacity-85 transition">-->
+<!--                                    <span class="text-white font-semibold text-sm leading-6.5">-->
+<!--                                        مشاهده و ارسال پیشنهاد-->
+<!--                                    </span>-->
+<!--                                    <img src="../public/image/svg/left-arrow.svg" alt="left arrow icon">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="flex flex-row justify-between py-6 pr-6 pl-10 shadow-xs rounded-lg">-->
+<!--                        <div class="flex flex-col gap-8">-->
+<!--                            <div class="flex flex-col gap-2">-->
+<!--                                <div class="flex flex-row gap-1 items-center">-->
+<!--                                    <img src="../public/image/svg/building.svg" alt="building icon">-->
+<!--                                    <span class="text-tiny font-semibold leading-6 text-[#667985]">-->
+<!--                                        کارشناسی توسط شرکت-->
+<!--                                    </span>-->
+<!--                                </div>-->
+<!--                                <span class="text-[#1D2E39] text-lg font-bold leading-8">-->
+<!--                                    مسابقه حل چالش کد‌نویسی همکاران سیستم به زبان پایتون-->
+<!--                                </span>-->
+<!--                                <span class="text-[#475A67] text-sm leading-6.5 font-normal w-[34.125rem]">-->
+<!--                                    به گفته یکی از افشاگران باسابقه، کابل درون جعبه مدل‌های آیفون ۱۵ می‌تواند به سرعت انتقال USB 2.0 محدود شود. او ادعا می‌کند که این کابل‌ها دارای سرعت انتقال داده USB 2.0 هستند که حداکثر...-->
+<!--                                </span>-->
+<!--                            </div>-->
+<!--                            <div class="flex flex-row gap-2 items-center pt-3 border-t border-[#EAEEF0]">-->
+<!--                                <img class="w-8" src="../public/image/png/company-logo.png" alt="Company logo">-->
+<!--                                <span class="text-[#1D2E39] text-sm leading-6.5 font-bold">-->
+<!--                                    همكاران سيستم-->
+<!--                                </span>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="py-9.25 pr-8 border-r border-[#EAEEF0]">-->
+<!--                            <div class="flex flex-col gap-8">-->
+<!--                                <div class="flex flex-col gap-1">-->
+<!--                                    <div class="flex flex-row gap-1 items-center">-->
+<!--                                        <span class="text-sm font-normal leading-6.5 text-[#667985]">-->
+<!--                                            <span class="text-sm font-bold leading-6.5 text-[#475A67]">-->
+<!--                                                ۴-->
+<!--                                            </span>-->
+<!--                                            روز-->
+<!--                                        </span>-->
+<!--                                        <span class="text-sm font-normal leading-6.5 text-[#667985]">-->
+<!--                                            <span class="text-sm font-bold leading-6.5 text-[#475A67]">-->
+<!--                                                ۲۳-->
+<!--                                            </span>-->
+<!--                                            ساعت-->
+<!--                                        </span>-->
+<!--                                        <span class="text-sm font-normal leading-6.5 text-[#667985]">-->
+<!--                                            <span class="text-sm font-bold leading-6.5 text-[#475A67]">-->
+<!--                                                ۲۴-->
+<!--                                            </span>-->
+<!--                                            دقیقه-->
+<!--                                        </span>-->
+<!--                                    </div>-->
+<!--                                    <span class="text-[#49B3F3] text-sm leading-6.5 font-semibold">-->
+<!--                                        درحال دریافت پیشنهادها-->
+<!--                                    </span>-->
+<!--                                </div>-->
+<!--                                <div class="px-4 py-1.5 flex flex-row gap-2 items-center bg-[#101828] rounded-lg cursor-pointer hover:opacity-85 transition">-->
+<!--                                    <span class="text-white font-semibold text-sm leading-6.5">-->
+<!--                                        مشاهده و ارسال پیشنهاد-->
+<!--                                    </span>-->
+<!--                                    <img src="../public/image/svg/left-arrow.svg" alt="left arrow icon">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="flex justify-center">-->
+<!--                    <div class="px-[7.5625rem] py-2 rounded-lg flex flex-row gap-2 items-center cursor-pointer hover:bg-gray-200 transition justify-center w-fit border border-[#D0D8DD]">-->
+<!--                        <span class="text-base text-[#344754] font-bold leading-7.5">-->
+<!--                            مشاهده همه مسابقه‌ها-->
+<!--                        </span>-->
+<!--                        <img src="../public/image/svg/black-left-arrow.svg" alt="arrow icon">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </main>-->
+    <footer class="flex flex-col gap-8 lg:gap-4.5">
+        <div class="px-4 py-12 lg:py-12 bg-[#F2F5F7]">
+            <div class="flex flex-col lg:flex-row justify-between mx-auto gap-6 container-custom">
+                <div class="flex flex-col gap-1 lg:gap-2 lg:p-0">
                     <div class="flex flex-row gap-2 items-center">
                         <img class="hidden lg:inline" src="../public/image/svg/news-icon.svg" alt="news icon">
                         <span class="font-bold font-mono text-lg lg:text-xl leading-8 lg:leading-9">
@@ -443,7 +454,7 @@
                         با عضویت در خبرنامه جهش از جدید‌ترین مطالب ‌دنیای کسب‌و‌کار، استارت‌آپ و سرمایه‌گذاری را دریافت کنید.
                     </p>
                 </div>
-                <div class="lg:flex lg:flex-row lg:items-center px-4 lg:p-0 justify-end">
+                <div class="lg:flex lg:flex-row lg:items-center lg:p-0 justify-end">
                     <div class="flex flex-col lg:flex-row gap-4 lg:gap-2 lg:items-center">
                         <form class="flex flex-col lg:flex-row gap-4 lg:gap-2 lg:items-center" action="">
                             <div class="p-0.25 bg-linear-to-r rounded-lg from-[#0BA3FF] via-[#1004A4] to-[#C72D80]">
@@ -464,9 +475,9 @@
             </div>
         </div>
         <!--   next section     -->
-        <div  class="relative">
-            <img class="absolute left-0" src="../public/image/svg/jahesh-logo.svg" alt="logo">
-            <div class="grid grid-cols-[repeat(3,360px)] gap-[7.5rem] mx-auto container-custom pb-16 pt-20">
+        <div class="relative">
+            <img class="absolute left-0 hidden lg:inline" src="../public/image/svg/jahesh-logo.svg" alt="logo">
+            <div class="grid lg:grid-cols-3 lg:gap-[7.5rem] mx-auto container-custom lg:pb-16 px-4 pt-12 gap-10 lg:pt-20">
                 <div class="flex flex-col gap-4 order-2 lg:order-none">
                     <img class="w-fit hidden lg:inline" src="../public/image/svg/footer-logo.svg" alt="logo icon">
                     <img class="w-fit lg:hidden" src="../public/image/svg/footer-logo-mobile.svg" alt="logo icon">
@@ -474,12 +485,12 @@
                         جهش، خاکی حاصل‌خیز برای رشد رویاهای جسورانه افرادیست که بهبود را از دریچه نوآوری و نوآفرینی می‌جویند.ما در جهش از بطن چالش‌ها جوانه می‌زنیم و ذهنمان محدود به مرز جغرافیایی مشخصی نیست.
                     </p>
                 </div>
-                <div class="grid grid-cols-[177px_103px] lg:gap-20">
+                <div class="grid lg:grid-cols-2 lg:gap-20">
                     <div class="flex flex-col lg:gap-8 gap-4">
                         <span class="lg:pr-2 lg:border-r-2 border-[#EAEEF0] leading-6 lg:leading-6.5 font-bold text-tiny md:text-sm text-[#98A8B3]">
                             مجموعه‌های جهش
                         </span>
-                        <div class="flex flex-row justify-between">
+                        <div class="flex flex-col lg:flex-row justify-between gap-6">
                             <div class="flex flex-row lg:flex-col lg:gap-4 justify-between items-center 2xl:items-start">
                                 <span class="md:text-sm text-tiny leading-6 font-semibold md:leading-6.5 hover:text-[#0F048D] relative inline-block group">
                                     <a href="#">
@@ -638,28 +649,30 @@
                 </div>
             </div>
         </div>
-        <div class="lg:hidden flex flex-col justify-center items-center gap-4 pb-1 bg-linear-[90deg,#C72D80,#1004A4,#49B3F3]">
-            <div class="w-full h-full bg-white">
-                <div class="flex flex-row items-center justify-between gap-14 py-4 px-8 border-t border-b border-[#EAEEF0] container mx-auto">
-                    <img class="order-3" src="../public/image/svg/social.media.svg" alt="social media icon">
-                    <img class="order-2" src="../public/image/svg/instagram.svg" alt="instagram icon">
-                    <img class="order-4" src="../public/image/svg/x.svg" alt="x icon">
-                    <img class="order-1" src="../public/image/svg/telegram.svg" alt="telegram icon">
-                </div>
-                <div class="pb-[3.095rem] flex flex-col items-center gap-2 justify-center pt-4">
-                    <span class="text-xs font-normal leading-6 text-[#475A67]">
-                        کلیه حقوق مادی و معنوی این سایت متعلق به جهش است.
-                    </span>
-                    <img class="w-fit" src="../public/image/svg/logo-footer-mobile.svg" alt="logo icon">
+        <div>
+            <div class="lg:hidden flex flex-col justify-center items-center gap-4 pb-1 bg-linear-[90deg,#C72D80,#1004A4,#49B3F3]">
+                <div class="w-full h-full bg-white">
+                    <div class="flex flex-row items-center justify-between py-4 px-12 border-t border-b border-[#EAEEF0]">
+                        <img class="order-3" src="../public/image/svg/social.media.svg" alt="social media icon">
+                        <img class="order-2" src="../public/image/svg/instagram.svg" alt="instagram icon">
+                        <img class="order-4" src="../public/image/svg/x.svg" alt="x icon">
+                        <img class="order-1" src="../public/image/svg/telegram.svg" alt="telegram icon">
+                    </div>
+                    <div class="pb-[3.095rem] flex flex-col items-center gap-2 justify-center pt-4 px-4">
+                        <span class="text-xs font-normal leading-6 text-[#475A67]">
+                            کلیه حقوق مادی و معنوی این سایت متعلق به جهش است.
+                        </span>
+                        <img class="w-fit" src="../public/image/svg/logo-footer-mobile.svg" alt="logo icon">
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="p-4 lg:hidden">
-            <div class="cursor-pointer rounded-lg flex flex-row gap-2 items-center justify-center bg-[#101828] py-1.5">
-                <span class="text-white text-sm font-semibold">
-                    ایجاد مسابقه
-                </span>
-                <img src="../public/image/svg/left-arrow.svg" alt="arrow icon">
+            <div class="p-4 lg:hidden">
+                <div class="cursor-pointer rounded-lg flex flex-row gap-2 items-center justify-center bg-[#101828] py-1.5">
+                    <span class="text-white text-sm font-semibold">
+                        ایجاد مسابقه
+                    </span>
+                    <img src="../public/image/svg/left-arrow.svg" alt="arrow icon">
+                </div>
             </div>
         </div>
     </footer>
