@@ -198,6 +198,9 @@
   .bottom-0 {
     bottom: calc(var(--spacing) * 0);
   }
+  .left-0 {
+    left: calc(var(--spacing) * 0);
+  }
   .left-1 {
     left: calc(var(--spacing) * 1);
   }
@@ -491,6 +494,21 @@
   }
   .bg-cover {
     background-size: cover;
+  }
+  .bg-bottom {
+    background-position: bottom;
+  }
+  .bg-bottom-left {
+    background-position: left bottom;
+  }
+  .bg-center {
+    background-position: center;
+  }
+  .bg-left {
+    background-position: left;
+  }
+  .bg-top {
+    background-position: top;
   }
   .bg-no-repeat {
     background-repeat: no-repeat;
