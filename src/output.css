@@ -30,6 +30,7 @@
     --font-weight-bold: 700;
     --font-weight-black: 900;
     --radius-lg: 0.5rem;
+    --radius-2xl: 1rem;
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
@@ -225,6 +226,18 @@
   .-top-\[40px\] {
     top: calc(40px * -1);
   }
+  .-top-\[50px\] {
+    top: calc(50px * -1);
+  }
+  .-top-\[60px\] {
+    top: calc(60px * -1);
+  }
+  .-top-\[90px\] {
+    top: calc(90px * -1);
+  }
+  .-top-\[100px\] {
+    top: calc(100px * -1);
+  }
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
@@ -269,6 +282,12 @@
   }
   .top-\[1500px\] {
     top: 1500px;
+  }
+  .-right-\[50px\] {
+    right: calc(50px * -1);
+  }
+  .-right-\[100px\] {
+    right: calc(100px * -1);
   }
   .right-0 {
     right: calc(var(--spacing) * 0);
@@ -320,6 +339,12 @@
   }
   .-bottom-\[11px\] {
     bottom: calc(11px * -1);
+  }
+  .-bottom-\[100px\] {
+    bottom: calc(100px * -1);
+  }
+  .-bottom-\[200px\] {
+    bottom: calc(200px * -1);
   }
   .bottom-0 {
     bottom: calc(var(--spacing) * 0);
@@ -539,6 +564,9 @@
   }
   .gap-\[7\.5rem\] {
     gap: 7.5rem;
+  }
+  .rounded-2xl {
+    border-radius: var(--radius-2xl);
   }
   .rounded-\[1px\] {
     border-radius: 1px;
