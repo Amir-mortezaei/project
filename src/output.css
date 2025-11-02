@@ -238,6 +238,27 @@
   .-top-\[100px\] {
     top: calc(100px * -1);
   }
+  .-top-\[200px\] {
+    top: calc(200px * -1);
+  }
+  .-top-\[300px\] {
+    top: calc(300px * -1);
+  }
+  .-top-\[310px\] {
+    top: calc(310px * -1);
+  }
+  .-top-\[315px\] {
+    top: calc(315px * -1);
+  }
+  .-top-\[320px\] {
+    top: calc(320px * -1);
+  }
+  .-top-\[321px\] {
+    top: calc(321px * -1);
+  }
+  .-top-\[322px\] {
+    top: calc(322px * -1);
+  }
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
@@ -288,6 +309,21 @@
   }
   .-right-\[100px\] {
     right: calc(100px * -1);
+  }
+  .-right-\[150px\] {
+    right: calc(150px * -1);
+  }
+  .-right-\[160px\] {
+    right: calc(160px * -1);
+  }
+  .-right-\[175px\] {
+    right: calc(175px * -1);
+  }
+  .-right-\[180px\] {
+    right: calc(180px * -1);
+  }
+  .-right-\[200px\] {
+    right: calc(200px * -1);
   }
   .right-0 {
     right: calc(var(--spacing) * 0);
@@ -369,6 +405,9 @@
   }
   .left-13\/18 {
     left: calc(13/18 * 100%);
+  }
+  .left-64 {
+    left: calc(var(--spacing) * 64);
   }
   .left-\[100px\] {
     left: 100px;
