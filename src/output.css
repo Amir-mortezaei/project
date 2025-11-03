@@ -322,8 +322,14 @@
   .w-140 {
     width: calc(var(--spacing) * 140);
   }
+  .w-\[11\.6875rem\] {
+    width: 11.6875rem;
+  }
   .w-\[34\.125rem\] {
     width: 34.125rem;
+  }
+  .w-\[536px\] {
+    width: 536px;
   }
   .w-\[898px\] {
     width: 898px;
@@ -408,6 +414,9 @@
   }
   .gap-12 {
     gap: calc(var(--spacing) * 12);
+  }
+  .gap-16 {
+    gap: calc(var(--spacing) * 16);
   }
   .gap-20 {
     gap: calc(var(--spacing) * 20);
@@ -547,11 +556,20 @@
   .px-8 {
     padding-inline: calc(var(--spacing) * 8);
   }
+  .px-15 {
+    padding-inline: calc(var(--spacing) * 15);
+  }
+  .px-15\.5 {
+    padding-inline: calc(var(--spacing) * 15.5);
+  }
   .px-16 {
     padding-inline: calc(var(--spacing) * 16);
   }
   .px-20 {
     padding-inline: calc(var(--spacing) * 20);
+  }
+  .px-\[7\.625rem\] {
+    padding-inline: 7.625rem;
   }
   .px-\[7\.5625rem\] {
     padding-inline: 7.5625rem;
@@ -582,6 +600,9 @@
   }
   .py-9\.25 {
     padding-block: calc(var(--spacing) * 9.25);
+  }
+  .py-10 {
+    padding-block: calc(var(--spacing) * 10);
   }
   .py-12 {
     padding-block: calc(var(--spacing) * 12);
@@ -622,6 +643,9 @@
   .pt-\[9\.375rem\] {
     padding-top: 9.375rem;
   }
+  .pt-\[11\.0625rem\] {
+    padding-top: 11.0625rem;
+  }
   .pr-2 {
     padding-right: calc(var(--spacing) * 2);
   }
@@ -633,6 +657,9 @@
   }
   .pr-8 {
     padding-right: calc(var(--spacing) * 8);
+  }
+  .pr-\[224px\] {
+    padding-right: 224px;
   }
   .pb-1 {
     padding-bottom: calc(var(--spacing) * 1);
@@ -646,6 +673,9 @@
   .pb-16 {
     padding-bottom: calc(var(--spacing) * 16);
   }
+  .pb-40 {
+    padding-bottom: calc(var(--spacing) * 40);
+  }
   .pb-\[3\.095rem\] {
     padding-bottom: 3.095rem;
   }
@@ -654,6 +684,9 @@
   }
   .pb-\[11\.375rem\] {
     padding-bottom: 11.375rem;
+  }
+  .pl-8 {
+    padding-left: calc(var(--spacing) * 8);
   }
   .pl-10 {
     padding-left: calc(var(--spacing) * 10);
@@ -784,6 +817,10 @@
   }
   .underline {
     text-decoration-line: underline;
+  }
+  .shadow-2xl {
+    --tw-shadow: 0 25px 50px -12px var(--tw-shadow-color, rgb(0 0 0 / 0.25));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
   .shadow-xs {
     --tw-shadow: 0 1px 2px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.05));
@@ -1143,6 +1180,26 @@
   .\32 xl\:p-0 {
     @media (width >= 96rem) {
       padding: calc(var(--spacing) * 0);
+    }
+  }
+  .\33 xl\:w-6\/12 {
+    @media (width >= 120rem) {
+      width: calc(6/12 * 100%);
+    }
+  }
+  .\33 xl\:w-7\/12 {
+    @media (width >= 120rem) {
+      width: calc(7/12 * 100%);
+    }
+  }
+  .\33 xl\:w-9\/12 {
+    @media (width >= 120rem) {
+      width: calc(9/12 * 100%);
+    }
+  }
+  .\33 xl\:w-10\/12 {
+    @media (width >= 120rem) {
+      width: calc(10/12 * 100%);
     }
   }
   .\33 xl\:grid-cols-\[177px_103px\] {
