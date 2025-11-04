@@ -29,6 +29,7 @@
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
     --font-weight-black: 900;
     --radius-lg: 0.5rem;
     --blur-xs: 4px;
@@ -346,6 +347,12 @@
   .h-21 {
     height: calc(var(--spacing) * 21);
   }
+  .h-32 {
+    height: calc(var(--spacing) * 32);
+  }
+  .h-32\.5 {
+    height: calc(var(--spacing) * 32.5);
+  }
   .h-\[2px\] {
     height: 2px;
   }
@@ -357,6 +364,9 @@
   }
   .w-0\.5 {
     width: calc(var(--spacing) * 0.5);
+  }
+  .w-6 {
+    width: calc(var(--spacing) * 6);
   }
   .w-8 {
     width: calc(var(--spacing) * 8);
@@ -399,6 +409,9 @@
   }
   .w-full {
     width: 100%;
+  }
+  .min-w-6 {
+    min-width: calc(var(--spacing) * 6);
   }
   .min-w-8 {
     min-width: calc(var(--spacing) * 8);
@@ -564,6 +577,9 @@
   }
   .bg-\[\#EAECF0\] {
     background-color: #EAECF0;
+  }
+  .bg-\[\#EAEEF0\] {
+    background-color: #EAEEF0;
   }
   .bg-\[\#F2F5F7\] {
     background-color: #F2F5F7;
@@ -746,6 +762,9 @@
   .pt-1 {
     padding-top: calc(var(--spacing) * 1);
   }
+  .pt-1\.5 {
+    padding-top: calc(var(--spacing) * 1.5);
+  }
   .pt-3 {
     padding-top: calc(var(--spacing) * 3);
   }
@@ -761,8 +780,14 @@
   .pt-8 {
     padding-top: calc(var(--spacing) * 8);
   }
+  .pt-9 {
+    padding-top: calc(var(--spacing) * 9);
+  }
   .pt-9\.5 {
     padding-top: calc(var(--spacing) * 9.5);
+  }
+  .pt-11 {
+    padding-top: calc(var(--spacing) * 11);
   }
   .pt-12 {
     padding-top: calc(var(--spacing) * 12);
@@ -778,6 +803,12 @@
   }
   .pt-20 {
     padding-top: calc(var(--spacing) * 20);
+  }
+  .pt-30 {
+    padding-top: calc(var(--spacing) * 30);
+  }
+  .pt-30\.5 {
+    padding-top: calc(var(--spacing) * 30.5);
   }
   .pt-\[6\.5rem\] {
     padding-top: 6.5rem;
@@ -815,8 +846,14 @@
   .pb-5\.5 {
     padding-bottom: calc(var(--spacing) * 5.5);
   }
+  .pb-6 {
+    padding-bottom: calc(var(--spacing) * 6);
+  }
   .pb-8 {
     padding-bottom: calc(var(--spacing) * 8);
+  }
+  .pb-9\.5 {
+    padding-bottom: calc(var(--spacing) * 9.5);
   }
   .pb-14 {
     padding-bottom: calc(var(--spacing) * 14);
@@ -932,6 +969,10 @@
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
+  }
+  .font-extrabold {
+    --tw-font-weight: var(--font-weight-extrabold);
+    font-weight: var(--font-weight-extrabold);
   }
   .font-medium {
     --tw-font-weight: var(--font-weight-medium);
