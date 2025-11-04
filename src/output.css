@@ -250,6 +250,9 @@
   .bottom-0 {
     bottom: calc(var(--spacing) * 0);
   }
+  .bottom-1 {
+    bottom: calc(var(--spacing) * 1);
+  }
   .bottom-4 {
     bottom: calc(var(--spacing) * 4);
   }
@@ -315,6 +318,12 @@
   }
   .mx-auto {
     margin-inline: auto;
+  }
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
   }
   .block {
     display: block;
@@ -752,6 +761,9 @@
   .pt-8 {
     padding-top: calc(var(--spacing) * 8);
   }
+  .pt-9\.5 {
+    padding-top: calc(var(--spacing) * 9.5);
+  }
   .pt-12 {
     padding-top: calc(var(--spacing) * 12);
   }
@@ -805,6 +817,9 @@
   }
   .pb-8 {
     padding-bottom: calc(var(--spacing) * 8);
+  }
+  .pb-14 {
+    padding-bottom: calc(var(--spacing) * 14);
   }
   .pb-16 {
     padding-bottom: calc(var(--spacing) * 16);
